@@ -34,3 +34,17 @@ def predict_news_rule_based(text):
 #Flowchart:
 <img width="571" height="362" alt="image" src="https://github.com/user-attachments/assets/f9a116bf-bb51-41d7-9275-c5ce45851cda" />
 
+#Table Defining [Fake keywords, Real Keywords, Suspicious Keywords]:
+ Rule No.  Keyword / Pattern       | Type       | Description / Reason for Flagging            
+
+ 1       | clickbait               | Suspicious | Exaggerated headline to attract clicks       
+ 2       | shocking / unbelievable | Suspicious | Sensational phrases to grab attention        
+ 3       | hoax                    | Fake/Rumor | Indicates deliberately false information     
+ 4       | rumor                   | Fake/Rumor | Suggests unverified or circulating claims    
+ 5       | viral                   | Suspicious | Often used to exaggerate or mislead          
+ 6       | conspiracy              | Fake/Rumor | Indicates content may be misleading or false 
+ 7       | unverified              | Fake/Rumor | Explicitly shows the news is not confirmed   
+ 8       | fake news               | Fake/Rumor | Keyword directly indicating false content    
+ 9       | unbelievable story      | Suspicious | Sensational story that may mislead           
+ 10      | alert / urgent          | Suspicious | Often used to provoke fear or clicks         
+
