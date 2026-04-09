@@ -30,3 +30,7 @@ def predict_news_rule_based(text):
     #Installation:
     Flask==2.3.0
     pandas==2.0.3
+    
+#Flowchart:
+<img width="571" height="362" alt="image" src="https://github.com/user-attachments/assets/f9a116bf-bb51-41d7-9275-c5ce45851cda" />
+
