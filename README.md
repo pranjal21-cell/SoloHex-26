@@ -48,3 +48,10 @@ def predict_news_rule_based(text):
  9       | unbelievable story      | Suspicious | Sensational story that may mislead           
  10      | alert / urgent          | Suspicious | Often used to provoke fear or clicks         
 
+#Test_Cases:
+ Input News                     | Prediction | Notes                           
+
+ “Shocking! Celebrity dies in accident”  | Fake       | Contains “Shocking” keyword     
+ “Local government announces new policy” | Real       | No suspicious keywords found    
+ “Unbelievable! Alien spotted in city”   | Fake       | Contains “Unbelievable” keyword 
+
