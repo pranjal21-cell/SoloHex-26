@@ -55,3 +55,9 @@ def predict_news_rule_based(text):
  “Local government announces new policy” | Real       | No suspicious keywords found    
  “Unbelievable! Alien spotted in city”   | Fake       | Contains “Unbelievable” keyword 
 
+#Highlights of the project:
+
+1. Fast, rule-based detection (no ML model training required)
+2. Lightweight & easy to deploy
+3. Highlights suspicious keywords for user awareness
+4. Web interface for user-friendly interaction
