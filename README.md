@@ -26,3 +26,7 @@ def predict_news_rule_based(text):
         if word.lower() in text.lower():
             return "Fake"
     return "Real"
+
+    #Installation:
+    Flask==2.3.0
+    pandas==2.0.3
