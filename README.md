@@ -11,3 +11,9 @@ Technologies:
 [2]Flask (Web framework, for backend logic handling)
 [3]HTML & CSS
 [4]Rule-based validation logic
+
+Working &  Logic:
+1. User inputs news text.
+2. Text is preprocessed (cleaning, tokenization, stopwords removal).
+3. ML model predicts whether news is real or fake.
+4. Result displayed on web interface.
