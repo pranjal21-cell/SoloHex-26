@@ -17,3 +17,12 @@ Working &  Logic:
 2. Text is preprocessed (cleaning, tokenization, stopwords removal).
 3. ML model predicts whether news is real or fake.
 4. Result displayed on web interface.
+
+#Code[ Full Availabe in app.py]
+# Function to Predict whether: Fake
+fake_keywords = ["clickbait", "shocking", "unbelievable", "hoax", "Rumor"]
+def predict_news_rule_based(text):
+    for word in fake_keywords:
+        if word.lower() in text.lower():
+            return "Fake"
+    return "Real"
